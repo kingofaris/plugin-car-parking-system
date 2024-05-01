@@ -261,7 +261,7 @@ font: 75 11pt &quot;Suranna&quot;;</string>
           <widget class="QFrame" name="frame_5">
            <property name="maximumSize">
             <size>
-             <width>350</width>
+             <width>265</width>
              <height>16777215</height>
             </size>
            </property>
@@ -291,7 +291,7 @@ font: 75 11pt &quot;Suranna&quot;;</string>
              <widget class="QLabel" name="label_11">
               <property name="maximumSize">
                <size>
-                <width>16777215</width>
+                <width>260</width>
                 <height>23</height>
                </size>
               </property>
@@ -306,6 +306,12 @@ font: 75 11pt &quot;Suranna&quot;;</string>
             </item>
             <item>
              <widget class="QLabel" name="img_plate">
+              <property name="maximumSize">
+               <size>
+                <width>260</width>
+                <height>90</height>
+               </size>
+              </property>
               <property name="frameShape">
                <enum>QFrame::Box</enum>
               </property>
@@ -318,7 +324,7 @@ font: 75 11pt &quot;Suranna&quot;;</string>
              <widget class="QLabel" name="label_12">
               <property name="maximumSize">
                <size>
-                <width>16777215</width>
+                <width>260</width>
                 <height>23</height>
                </size>
               </property>
@@ -333,6 +339,12 @@ font: 75 11pt &quot;Suranna&quot;;</string>
             </item>
             <item>
              <widget class="QLabel" name="zoom">
+              <property name="maximumSize">
+               <size>
+                <width>260</width>
+                <height>16777215</height>
+               </size>
+              </property>
               <property name="frameShape">
                <enum>QFrame::Box</enum>
               </property>
@@ -345,7 +357,7 @@ font: 75 11pt &quot;Suranna&quot;;</string>
              <widget class="QLabel" name="label_13">
               <property name="maximumSize">
                <size>
-                <width>16777215</width>
+                <width>260</width>
                 <height>23</height>
                </size>
               </property>
@@ -361,6 +373,12 @@ font: 75 11pt &quot;Suranna&quot;;
             </item>
             <item>
              <widget class="QLabel" name="cam_fisheye">
+              <property name="maximumSize">
+               <size>
+                <width>260</width>
+                <height>16777215</height>
+               </size>
+              </property>
               <property name="frameShape">
                <enum>QFrame::Box</enum>
               </property>
@@ -372,7 +390,51 @@ font: 75 11pt &quot;Suranna&quot;;
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>32</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>32</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item>
                <widget class="QPushButton" name="btn_clear">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>32</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>32</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Dataset</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="btn_load">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>32</height>
+                 </size>
+                </property>
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
@@ -381,19 +443,6 @@ font: 75 11pt &quot;Suranna&quot;;
                 </property>
                 <property name="text">
                  <string>Clear</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="btn_load">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>32</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Load Dataset</string>
                 </property>
                </widget>
               </item>
